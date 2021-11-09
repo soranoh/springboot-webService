@@ -14,7 +14,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
  *      : 내장 WAS 를 실행한다.(스프링 부트로 만들어진 Jar 파일로 실행하면 된다.)
  *        늘 같은 환경에서 스프링 부트를 배포할 수 있기 때문에 스프링 부트에서는 내장 WAS 사용을 권장한다.
  */
-@EnableJpaAuditing
+// @EnableJpaAuditing 삭제됨
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
